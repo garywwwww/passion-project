@@ -1,4 +1,5 @@
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()
+};
 
 function scrollFunction() {
   const scrollTop = document.documentElement.scrollTop;
@@ -26,18 +27,27 @@ function redirect5() {
     window.location.href = "Contact.html";
 }
 
+function redirect_about() {
+    window.location.href = "About us.html";
+}
+
 function cbcredirect() {
-    window.open("https://www.cbc.ca/news", "_blank");
+    window.open("https://www.cbc.ca/news",
+    "_blank");
 }
 function cnnredirect() {
-    window.open("https://www.cnn.com/", "_blank");
+    window.open("https://www.cnn.com/",
+    "_blank");
 }
 function bbcredirect() {
-    window.open("https://www.bbc.com/news", "_blank");
+    window.open("https://www.bbc.com/news",
+    "_blank");
 }
 function nytredirect() {
-    window.open("https://www.nytimes.com/ca/", "_blank");
+    window.open("https://www.nytimes.com/ca/",
+    "_blank");
 }
 function bloomredirect() {
-    window.open("https://www.bloomberg.com/canada", "_blank");
+    window.open("https://www.bloomberg.com/canada",
+    "_blank");
 }
