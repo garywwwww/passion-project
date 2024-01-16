@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calgary News</title>
+    <link rel="stylesheet" href="common.css" />
+    <style>
+      main {
+        background-color: rgb(206, 203, 252);
+      }
+
+      #calgary-button {
+        color: rgb(36, 84, 132);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <main>
+      <div class="navigator">
+        <div class="nav-title">
+          <p>Calgary News</p>
+        </div>
+        <div class="nav-button">
+          <button id="home-button" onclick="homeredirect()" class="nav-but">
+            Home-Top Stories
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="calgary-button" onclick="redirect1()" class="nav-but">
+            Calgary
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="alberta-button" onclick="redirect2()" class="nav-but">
+            Alberta
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="canada-button" onclick="redirect3()" class="nav-but">
+            Canada
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="account-button" onclick="redirect4()" class="nav-but">
+            Account
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="contact-button" onclick="redirect5()" class="nav-but">
+            Contact
+          </button>
+        </div>
+      </div>
+      <div id="news Grid">
+        <div class="row-con row_1">
+          <div class="single-news-con" onclick="redirect6()">
+            <div>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Calgary raises more than $2.25M in donations for the Calgary
+                Food Bank
+              </p>
+            </div>
+            <div>
+              <p class="time">Canada-Calgary | Dec. 20 2023</p>
+            </div>
+          </div>
+          <div class="single-news-con" onclick="redirect7()">
+            <p class="source">CBC</p>
+            <div>
+              <p class="news-title">
+                Teen charged in Boxing Day machete attacks at Calgary Zoo
+                parking lot
+              </p>
+            </div>
+            <div>
+              <p class="time">Canada-Calgary | Dec. 27 2023</p>
+            </div>
+          </div>
+          <div class="single-news-con" onclick="redirect9()">
+            <p class="source">CBC</p>
+            <div>
+              <p class="news-title">
+                Calgary drivers are getting fewer distracted driving tickets
+                than Edmonton commuters
+              </p>
+            </div>
+            <div>
+              <p class="time">Canada-Calgary | Jan. 02 2024 >> video</p>
+            </div>
+          </div>
+          <div class="single-news-con" onclick="redirect10()">
+            <p class="source">CBC</p>
+            <div>
+              <p class="news-title">
+                Large-scale indoor farming takes root in Calgary industrial park
+              </p>
+            </div>
+            <div>
+              <p class="time">Canada-Calgary | Dec. 27 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="row-con row_2">
+          <div class="single-news-con" onclick="redirect11()">
+            <div>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Oil prices projected to stay at low levels in 2024, report says
+              </p>
+            </div>
+            <div>
+              <p class="time">Canada-Calgary | Jan. 09 2024</p>
+            </div>
+          </div>
+          <div class="single-news-con" onclick="redirect12()">
+            <p class="source">CBC</p>
+            <div>
+              <p class="news-title">
+                Red Deer hospital resorts to makeshift treatment spaces, sees
+                'high patient volumes,' says AHS
+              </p>
+            </div>
+            <div>
+              <p class="time">Alberta-Red Deer | Jan. 08 2024</p>
+            </div>
+          </div>
+          <div class="single-news-con" onclick="redirect13()">
+            <p class="source">CBC</p>
+            <div>
+              <p class="news-title">
+                Small central Alberta village worried about future with
+                province's planned coal power phase-out
+              </p>
+            </div>
+            <div>
+              <p class="time">Alberta-Edmonton | Jan. 09 2024</p>
+            </div>
+          </div>
+          <div class="single-news-con" onclick="redirect14()">
+            <p class="source">CBC</p>
+            <div>
+              <p class="news-title">
+                Daughter left 77-year-old father on basement floor for 2 days
+                after beating, judge told
+              </p>
+            </div>
+            <div>
+              <p class="time">Canada-Calgary | Jan. 08 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="row-con row_3"></div>
+      </div>
+      <footer>
+        <p class="footer-tit">Popular News Sites</p>
+        <p class="footer-href" onclick="cbcredirect()">CBC News</p>
+        <p class="footer-href" onclick="cnnredirect()">CNN News</p>
+        <p class="footer-href" onclick="bbcredirect()">BBC News</p>
+        <p class="footer-href" onclick="nytredirect()">The New York Times</p>
+        <p class="footer-href" onclick="bloomredirect()">Bloomberg</p>
+      </footer>
+    </main>
+    <script src="common.json"></script>
+    <script src="calgary_news_redirect.json"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+function nr1() {
+    window.open(
+      "https://www.cbc.ca/news/business/canada-grocery-bill-food-price-inflation-2024-1.7050438",
+  "_blank"
+    );
+}
+
+  function nr2() {
+    window.open(
+      "https://www.cnn.com/2023/12/06/middleeast/rape-sexual-violence-hamas-israel-what-we-know-intl/index.html",
+  "_blank"
+    );
+}
+
+  function nr3() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/menorah-lighting-mayor-gondek-not-attend-1.7051684",
+  "_blank"
+    );
+}
+
+  function nr4() {
+    window.open(
+      "https://www.cbc.ca/news/politics/liberal-government-unveils-oil-gas-cap-1.7051803",
+  "_blank"
+    );
+}
+
+  function nr5() {
+    window.open(
+      "https://www.bbc.com/news/world-us-canada-67656575",
+  "_blank"
+    );
+}
+
+  function nr6() {
+    window.open(
+      "https://www.cbc.ca/news/canada/cantaloupe-salmonella-deaths-canada-1.7053006",
+  "_blank"
+    );
+}
+
+  function nr7() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/leslie-horton-calgary-viral-smackdown-weight-1.7053423",
+  "_blank"
+    );
+}
+
+  function nr8() {
+    window.open(
+      "https://www.cbc.ca/news/entertainment/ryan-o-neal-obit-1.7054273",
+  "_blank"
+    );
+}
+
+  function nr9() {
+    window.open(
+      "https://www.cbc.ca/news/science/tyrannosaur-with-prey-1.7051950",
+  "_blank"
+    );
+}
+
+  function nr10() {
+    window.open(
+      "https://www.cbc.ca/news/world/israel-hamas-war-day-63-1.7052959",
+  "_blank"
+    );
+}
+
+  function nr11() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/calgary-it-s-dangerously-cold-outside-1.7080077",
+  "_blank"
+    );
+}
+
+  function nr12() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/banff-pedestrian-zone-parks-canada-1.7079525",
+  "_blank"
+    );
+}
+
+  function nr13() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/jn-1-variant-covid-alberta-1.7079611",
+  "_blank"
+    );
+}
+
+  function nr14() {
+    window.open(
+      "https://www.cbc.ca/news/canada/toronto/prohibited-weapons-found-on-amazon-1.7079582",
+  "_blank"
+    );
+}
+
+  function nr15() {
+    window.open(
+      "https://www.cbc.ca/news/canada/ottawa/ottawa-elementary-school-racial-slur-connaught-1.7079495",
+  "_blank"
+    );
+}

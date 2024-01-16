@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: #ddd;
+  position: sticky;
+  top: 0;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 4px;
+  background-color: #4caf50;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  background-color: deepskyblue;
+  position: sticky;
+  top: 4px;
+}
+
+.nav-title {
+  color: white;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-but {
+  cursor: pointer;
+  background-color: deepskyblue;
+  border: none;
+  color: white;
+  transition: color 0.5s, background-color 0.5s, opacity 0.3s;
+}
+
+.nav-but:hover {
+  background-color: white;
+  color: deepskyblue;
+}
+
+.nav-but:active {
+  opacity: 0.7;
+}
+
+.but-connettor {
+  display: inline-block;
+  cursor: default;
+  color: white;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+footer {
+  background-color: deepskyblue;
+  padding-bottom: 10px;
+}
+
+.footer-tit {
+  color: white;
+  padding-left: 7px;
+  padding-top: 5px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.footer-href {
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+  width: 160px;
+}
+
+.top-banner {
+  background-color: dodgerblue;
+  color: lightcoral;
+  text-align: center;
+}
+
+.top-banner-anounce {
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.source {
+  color: grey;
+}
+
+.row-con {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.single-news-con {
+  border: solid;
+  border-color: transparent;
+  border-radius: 3px;
+  transition: border-color 0.5s, opacity 0.2s;
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+}
+
+.single-news-con:hover {
+  border-color: dodgerblue;
+}
+
+.single-news-con:active {
+  opacity: 0.3;
+}
+
+.news-title {
+  display: block;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.time {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: deepskyblue;
+}

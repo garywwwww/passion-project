@@ -1,0 +1,43 @@
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  const scrollTop = document.documentElement.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  const scrolled = (scrollTop / scrollHeight) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+function homeredirect() {
+    window.location.href = "Index.html";
+}
+function redirect1() {
+    window.location.href = "Calgary News.html";
+}
+function redirect2() {
+    window.location.href = "Alberta News.html";
+}
+function redirect3() {
+    window.location.href = "Canada News.html";
+}
+function redirect4() {
+    window.location.href = "Sign In.html";
+}
+function redirect5() {
+    window.location.href = "Contact.html";
+}
+
+function cbcredirect() {
+    window.open("https://www.cbc.ca/news", "_blank");
+}
+function cnnredirect() {
+    window.open("https://www.cnn.com/", "_blank");
+}
+function bbcredirect() {
+    window.open("https://www.bbc.com/news", "_blank");
+}
+function nytredirect() {
+    window.open("https://www.nytimes.com/ca/", "_blank");
+}
+function bloomredirect() {
+    window.open("https://www.bloomberg.com/canada", "_blank");
+}

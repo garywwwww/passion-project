@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alberta News</title>
+    <link rel="stylesheet" href="common.css" />
+    <style>
+      #alberta-button {
+        color: rgb(36, 84, 132);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <main>
+      <div class="navigator">
+        <div class="nav-title">
+          <p>Alberta News</p>
+        </div>
+        <div class="nav-button">
+          <button id="home-button" onclick="homeredirect()" class="nav-but">
+            Home-Top Stories
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="calgary-button" onclick="redirect1()" class="nav-but">
+            Calgary
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="alberta-button" onclick="redirect2()" class="nav-but">
+            Alberta
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="canada-button" onclick="redirect3()" class="nav-but">
+            Canada
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="account-button" onclick="redirect4()" class="nav-but">
+            Account
+          </button>
+          <p class="but-connettor">·</p>
+          <button id="contact-button" onclick="redirect5()" class="nav-but">
+            Contact
+          </button>
+        </div>
+      </div>
+      <h1>Sorry, This page is tempopararily empty.</h1>
+      <footer>
+        <p class="footer-tit">Popular News Sites</p>
+        <p class="footer-href" onclick="cbcredirect()">CBC News</p>
+        <p class="footer-href" onclick="cnnredirect()">CNN News</p>
+        <p class="footer-href" onclick="bbcredirect()">BBC News</p>
+        <p class="footer-href" onclick="nytredirect()">The New York Times</p>
+        <p class="footer-href" onclick="bloomredirect()">Bloomberg</p>
+      </footer>
+    </main>
+    <script src="common.json"></script>
+    <script></script>
+  </body>
+</html>

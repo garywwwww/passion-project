@@ -1,0 +1,62 @@
+function redirect6() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/cbc-calgary-surpasses-2m-food-bank-1.7065369",
+      "_blank"
+    );
+  }
+
+function redirect7() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/teenager-charges-laid-machete-calgary-zoo-parking-lot-1.7070090",
+      "_blank"
+    );
+  }
+
+function redirect8() {
+    window.open(
+      "",
+      "_blank"
+    );
+  }
+
+function redirect9() {
+    window.open(
+      "https://www.cbc.ca/player/play/2297104451773",
+      "_blank"
+    );
+  }
+
+function redirect10() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/indoor-farming-agriculture-calgary-food-security-1.7058386",
+      "_blank"
+    );
+  }
+
+function redirect11() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/oil-prices-projected-stay-low-1.7077870",
+      "_blank"
+    );
+  }
+
+  function redirect12() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/red-deer-hospital-makeshift-treatment-spaces-1.7077971",
+      "_blank"
+    );
+  }
+
+function redirect13() {
+    window.open(
+      "https://www.cbc.ca/news/canada/edmonton/alberta-coal-transition-small-town-effects-1.7078113",
+      "_blank"
+    );
+  }
+
+function redirect14() {
+    window.open(
+      "https://www.cbc.ca/news/canada/calgary/calgary-elder-abuse-guilty-plea-tara-picard-1.7077564",
+      "_blank"
+    );
+  }

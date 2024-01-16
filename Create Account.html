@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <style>
+      body {
+        display: flex;
+        background-color: deepskyblue;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .account-info-con {
+        background-color: dodgerblue;
+        background-color: dodgerblue;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .form-title {
+        color: white;
+        font-size: larger;
+        margin-top: 0px;
+      }
+
+      .instruction {
+        color: white;
+        font-size: medium;
+      }
+
+      .info-input {
+        border: none;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      .log-in-button {
+        border-radius: 10px;
+        background-color: deepskyblue;
+        color: white;
+        display: block;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: opacity 0.3s;
+      }
+
+      .log-in-button:hover {
+        opacity: 0.7;
+      }
+
+      .log-in-button:active {
+        opacity: 0.5;
+      }
+
+      .verify-but {
+        width: 50px;
+      }
+
+      #back-button {
+        border-radius: 10px;
+        background-color: dodgerblue;
+        border: none;
+        color: white;
+        padding: 8px;
+        cursor: pointer;
+        transition: opacity 0.2s;
+        margin-top: 20px;
+        margin-left: 35px;
+      }
+
+      #back-button:hover {
+        opacity: 0.7;
+      }
+
+      #back-button:active {
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="account-info-con">
+        <form action="Index.html" method="get" onsubmit="return validateForm()">
+          <p class="form-title">Log In</p>
+          <p class="instruction">Username</p>
+          <input
+            class="info-input"
+            name="username"
+            type="text"
+            placeholder="Username..."
+            id="usernameInput"
+          />
+          <p class="instruction">Password</p>
+          <input
+            class="info-input"
+            name="password"
+            type="password"
+            placeholder="Password..."
+            id="password1"
+          />
+          <p class="instruction">Rewrite Password</p>
+          <input
+            class="info-input"
+            name="confirm_password"
+            type="password"
+            placeholder="Password..."
+            id="password2"
+          />
+          <p class="instruction">Email</p>
+          <input
+            class="info-input"
+            name="Email"
+            type="email"
+            placeholder="Email..."
+            id="emailInput"
+          />
+          <p class="instruction">Verify you are not a bot</p>
+          <input
+            class="info-input verify-but"
+            name="verify"
+            type="checkbox"
+            id="verifyCheckbox"
+          />
+          <input class="log-in-button" type="submit" value="Create Account" />
+        </form>
+      </div>
+      <div id="back-button-con">
+        <button onclick="signinredirect()" id="back-button">
+          Back To Sign In Page
+        </button>
+      </div>
+    </main>
+    <script>
+      function validateForm() {
+        var username = document.getElementById("usernameInput").value;
+        var password1 = document.getElementById("password1").value;
+        var password2 = document.getElementById("password2").value;
+        var email = document.getElementById("emailInput").value;
+        var verifyCheckbox = document.getElementById("verifyCheckbox");
+
+        if (username === "") {
+          alert("Username cannot be empty!");
+          return false;
+        }
+
+        if (email === "") {
+          alert("Email cannot be empty!");
+          return false;
+        }
+
+        if (password1 !== password2) {
+          alert("Passwords do not match!");
+          return false;
+        }
+
+        if (!verifyCheckbox.checked) {
+          alert("Please verify that you are not a bot!");
+          return false;
+        }
+
+        return true;
+      }
+
+      function signinredirect() {
+        window.location.href = "Sign In.html";
+      }
+    </script>
+  </body>
+</html>
