@@ -27,10 +27,6 @@ function redirect5() {
     window.location.href = "Contact.html";
 }
 
-function redirect_about() {
-    window.location.href = "About us.html";
-}
-
 function cbcredirect() {
     window.open("https://www.cbc.ca/news",
     "_blank");

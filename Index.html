@@ -24,7 +24,7 @@
       <div class="progress-bar" id="myBar"></div>
     </div>
     <main>
-      <div class="navigator">
+      <div id="navigator_con" class="navigator">
         <div class="nav-title">
           <p onclick="homeredirect()">Current Events Sites -- GNS</p>
         </div>
@@ -55,54 +55,79 @@
         </div>
       </div>
       <div id="hit-news-con">
-        <div id="hittest-news-con" onclick="nr4()">
-          <p class="source">Source: CBC News</p>
-          <p class="news-date">Last update: 18mins ago</p>
-          <h1 class="hittest-news-title">
-            Federal government unveils what it calls a 'strict' oil and gas cap
-            to curb emissions
-          </h1>
-          <img
-            class="hittest-news-img"
-            src="hittest-news-img.jpg"
-            alt="hittest news"
-          />
-        </div>
+        <a
+          href="https://www.cbc.ca/news/politics/liberal-government-unveils-oil-gas-cap-1.7051803"
+          target="_blank"
+          ><div id="hittest-news-con">
+            <p class="source">Source: CBC News</p>
+            <p class="news-date">Last update: 18mins ago</p>
+            <h1 class="hittest-news-title">
+              Federal government unveils what it calls a 'strict' oil and gas
+              cap to curb emissions
+            </h1>
+            <img
+              class="hittest-news-img"
+              src="hittest-news-img.jpg"
+              alt="hittest news"
+            />
+          </div>
+        </a>
+
         <div id="side-news-con">
           <div class="divider"></div>
-          <div class="side-bar-news" onclick="nr1()">
-            <p class="source">CBC</p>
-            <p class="news-title">
-              Food inflation is showing, but a typical grocery bill will still
-              be $70 higher next year
-            </p>
-            <p class="news-date">Economy · Dec. 7th</p>
-          </div>
+          <a
+            href="https://www.cbc.ca/news/business/canada-grocery-bill-food-price-inflation-2024-1.7050438"
+            target="_blank"
+            ><div class="side-bar-news">
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Food inflation is showing, but a typical grocery bill will still
+                be $70 higher next year
+              </p>
+              <p class="news-date">Economy · Dec. 7th</p>
+            </div></a
+          >
+
           <div class="divider"></div>
-          <div class="side-bar-news" onclick="nr2()">
-            <p class="source">CNN</p>
-            <p class="news-title">
-              Details emerge about Hamas' sexual violence on October 7
-            </p>
-            <p class="news-date">Warfare · Dec. 7th--3:34 AM</p>
-          </div>
+          <a
+            href="https://www.cnn.com/2023/12/06/middleeast/rape-sexual-violence-hamas-israel-what-we-know-intl/index.html"
+            target="_blank"
+            ><div class="side-bar-news">
+              <p class="source">CNN</p>
+              <p class="news-title">
+                Details emerge about Hamas' sexual violence on October 7
+              </p>
+              <p class="news-date">Warfare · Dec. 7th--3:34 AM</p>
+            </div></a
+          >
+
           <div class="divider"></div>
-          <div class="side-bar-news" onclick="nr3()">
-            <p class="source">CBC</p>
-            <p class="news-title">
-              Calgary mayor will not attend annual Menorah lighting, says event
-              has become too political
-            </p>
-            <p class="news-date">City News · Dec. 7th</p>
-          </div>
+          <a
+            href="https://www.cbc.ca/news/canada/calgary/menorah-lighting-mayor-gondek-not-attend-1.7051684"
+            target="_blank"
+            ><div class="side-bar-news">
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Calgary mayor will not attend annual Menorah lighting, says
+                event has become too political
+              </p>
+              <p class="news-date">City News · Dec. 7th</p>
+            </div></a
+          >
+
           <div class="divider"></div>
-          <div class="side-bar-news" onclick="nr5()">
-            <p class="source">BBC</p>
-            <p class="news-title">
-              Hunter Biden charged with evading tax on millions
-            </p>
-            <p class="news-date">US & Canada · Dec. 8th--5:00 AM</p>
-          </div>
+          <a
+            href="https://www.bbc.com/news/world-us-canada-67656575"
+            target="_blank"
+            ><div class="side-bar-news" onclick="nr5()">
+              <p class="source">BBC</p>
+              <p class="news-title">
+                Hunter Biden charged with evading tax on millions
+              </p>
+              <p class="news-date">US & Canada · Dec. 8th--5:00 AM</p>
+            </div></a
+          >
+
           <div class="divider"></div>
         </div>
       </div>
@@ -111,89 +136,128 @@
           <p class="rank-title">Popular Now -- CBC</p>
         </div>
         <div class="popular-news">
-          <div class="popular-con" onclick="nr6()">
-            <p class="popular-title">1</p>
-            <p class="source">CBC</p>
-            <p class="news-title">
-              5 now dead in 'major' cantaloupe salmonella outbreak as Canadian
-              cases nearly double
-            </p>
-            <p class="news-date">310 reading now</p>
-          </div>
-          <div class="popular-con" onclick="nr7()">
-            <p class="popular-title">2</p>
-            <p class="source">CBC</p>
-            <p class="news-title">
-              Calgary traffic reporter goes viral after response to body comment
-            </p>
-            <p class="news-date">304 reading now</p>
-          </div>
-          <div class="popular-con" onclick="nr8()">
-            <p class="popular-title">3</p>
-            <p class="source">CBC</p>
-            <p class="news-title">
-              Ryan O'Neal, Oscar-nominated heartthrob actor popular in the
-              1970s, daed at 82
-            </p>
-            <p class="news-date">203 reading now</p>
-          </div>
-          <div class="popular-con" onclick="nr9()">
-            <p class="popular-title">4</p>
-            <p class="source">CBC</p>
-            <p class="news-title">
-              Young tyrannosaur found with baby dinosaurs in its stomach
-            </p>
-            <p class="news-date">190 reading now</p>
-          </div>
-          <div class="popular-con" onclick="nr10()">
-            <p class="popular-title">5</p>
-            <p class="source">CBC</p>
-            <p class="news-title">
-              U.S. vetoes ceasefire demand, as UN Secretary-General warns Gaza
-              'at breading point'
-            </p>
-            <p class="news-date">144 reading now</p>
-          </div>
+          <a
+            href="https://www.cbc.ca/news/canada/cantaloupe-salmonella-deaths-canada-1.7053006"
+            target="_blank"
+            ><div class="popular-con">
+              <p class="popular-title">1</p>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                5 now dead in 'major' cantaloupe salmonella outbreak as Canadian
+                cases nearly double
+              </p>
+              <p class="news-date">310 reading now</p>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/canada/calgary/leslie-horton-calgary-viral-smackdown-weight-1.7053423"
+            target="_blank"
+            ><div class="popular-con">
+              <p class="popular-title">2</p>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Calgary traffic reporter goes viral after response to body
+                comment
+              </p>
+              <p class="news-date">304 reading now</p>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/entertainment/ryan-o-neal-obit-1.7054273"
+            target="_blank"
+            ><div class="popular-con">
+              <p class="popular-title">3</p>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Ryan O'Neal, Oscar-nominated heartthrob actor popular in the
+                1970s, daed at 82
+              </p>
+              <p class="news-date">203 reading now</p>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/science/tyrannosaur-with-prey-1.7051950"
+            target="_blank"
+            ><div class="popular-con">
+              <p class="popular-title">4</p>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Young tyrannosaur found with baby dinosaurs in its stomach
+              </p>
+              <p class="news-date">190 reading now</p>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/world/israel-hamas-war-day-63-1.7052959"
+            target="_blank"
+            ><div class="popular-con">
+              <p class="popular-title">5</p>
+              <p class="source">CBC</p>
+              <p class="news-title">
+                U.S. vetoes ceasefire demand, as UN Secretary-General warns Gaza
+                'at breading point'
+              </p>
+              <p class="news-date">144 reading now</p>
+            </div></a
+          >
         </div>
       </div>
       <div id="local-cat">
         <div id="local">
           <p class="local-title">Local</p>
           <div class="local-news-con-display">
-            <div class="single-news-con" onclick="nr11()">
-              <p class="news-title">Calgary, it's dangerously cold outside</p>
-              <p class="news-description">
-                Environment Canada has issued an extreme cold warning for not
-                only the city, but the entire province of Alberta, forecasting
-                temperatures as low as -40 C over the weekend, with wind chills
-                potentially making it feel like -50 C in some places.
-              </p>
-              <p class="news-date">Canada-Calgary | Jan. 11 2024</p>
-            </div>
-            <div class="single-news-con" onclick="nr12()">
-              <p class="news-title">
-                Parks Canada letter forces Banff to pause pedestrian zone
-                decision
-              </p>
-              <p class="news-description">
-                The Town of Banff's debate on whether to make its pedestrian
-                zone road closure a permanent seasonal feature has been
-                derailed.
-              </p>
-              <p class="news-date">Canada-Calgary | Jan. 10 2024</p>
-            </div>
-            <div class="single-news-con" onclick="nr13()">
-              <p class="news-title">
-                Latest COVID-19 variant wrestles its way to the top in Alberta
-              </p>
-              <p class="news-description">
-                A new COVID-19 variant appears to be on its way to taking over
-                in Alberta, with one expert predicting it likely already has.
-                JN.1 is an offshoot of BA.2.86, which has evolved, like many of
-                its predecessors, to better evade out immune defenses.
-              </p>
-              <p class="news-date">Canada-Calgary | Jan. 10 2024</p>
-            </div>
+            <a
+              href="https://www.cbc.ca/news/canada/calgary/calgary-it-s-dangerously-cold-outside-1.7080077"
+              target="_blank"
+              ><div class="single-news-con">
+                <p class="news-title">Calgary, it's dangerously cold outside</p>
+                <p class="news-description">
+                  Environment Canada has issued an extreme cold warning for not
+                  only the city, but the entire province of Alberta, forecasting
+                  temperatures as low as -40 C over the weekend, with wind
+                  chills potentially making it feel like -50 C in some places.
+                </p>
+                <p class="news-date">Canada-Calgary | Jan. 11 2024</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.cbc.ca/news/canada/calgary/banff-pedestrian-zone-parks-canada-1.7079525"
+              target="_blank"
+              ><div class="single-news-con">
+                <p class="news-title">
+                  Parks Canada letter forces Banff to pause pedestrian zone
+                  decision
+                </p>
+                <p class="news-description">
+                  The Town of Banff's debate on whether to make its pedestrian
+                  zone road closure a permanent seasonal feature has been
+                  derailed.
+                </p>
+                <p class="news-date">Canada-Calgary | Jan. 10 2024</p>
+              </div></a
+            >
+
+            <a
+              href="https://www.cbc.ca/news/canada/calgary/jn-1-variant-covid-alberta-1.7079611"
+              target="_blank"
+              ><div class="single-news-con">
+                <p class="news-title">
+                  Latest COVID-19 variant wrestles its way to the top in Alberta
+                </p>
+                <p class="news-description">
+                  A new COVID-19 variant appears to be on its way to taking over
+                  in Alberta, with one expert predicting it likely already has.
+                  JN.1 is an offshoot of BA.2.86, which has evolved, like many
+                  of its predecessors, to better evade out immune defenses.
+                </p>
+                <p class="news-date">Canada-Calgary | Jan. 10 2024</p>
+              </div></a
+            >
           </div>
           <div class="calgary-href-button-con">
             <button class="calgary-href-button" onclick="redirect1()">
@@ -210,21 +274,31 @@
           <a class="categories" href="#us-cat">->US</a>
           <a class="categories" href="#health-cat">->Health Care</a>
           <div class="divider"></div>
-          <div class="single-news-con" onclick="nr14()">
-            <p>CBC</p>
-            <p class="news-title">
-              This illegal switchblade was a 'bestseller' on Amazon.ca until it
-              was reported to the company
-            </p>
-            <p class="news-date">Canada-Toronto | Jan. 11 2024</p>
-          </div>
-          <div class="single-news-con" onclick="nr15()">
-            <p>CBC</p>
-            <p class="news-title">
-              Elementary school warns parents about student racial slurs
-            </p>
-            <p class="news-date">Canada-Ottawa | Jan. 11 2024</p>
-          </div>
+          <a
+            href="https://www.cbc.ca/news/canada/toronto/prohibited-weapons-found-on-amazon-1.7079582"
+            target="_blank"
+            ><div class="single-news-con">
+              <p class="source">CBC</p>
+              <p class="news-title">
+                This illegal switchblade was a 'bestseller' on Amazon.ca until
+                it was reported to the company
+              </p>
+              <p class="news-date">Canada-Toronto | Jan. 11 2024</p>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/canada/ottawa/ottawa-elementary-school-racial-slur-connaught-1.7079495"
+            target="_blank"
+            ><div class="single-news-con">
+              <p class="source">CBC</p>
+              <p class="news-title">
+                Elementary school warns parents about student racial slurs
+              </p>
+              <p class="news-date">Canada-Ottawa | Jan. 11 2024</p>
+            </div></a
+          >
+
           <button class="Canada-href-button" onclick="redirect3()">
             More Federal News
           </button>
@@ -236,6 +310,120 @@
       <div id="entertainment" class="cat-con">
         <a id="enter-cat"></a>
         <h1>Entertainment</h1>
+        <div class="video_con">
+          <div class="youtube_con">
+            <p class="news-title">Behind the scene -- Make Up and Backstage</p>
+            <iframe
+              height="200"
+              width="360"
+              src="https://www.youtube.com/embed/hXk4dK14u-s"
+              title="Behind the Scenes Look at Sofía Vergara&#39;s Transformation Into &#39;Griselda&#39; - EXCLUSIVE | E! News"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p class="news-date">Jan. 18 -- 2024</p>
+          </div>
+          <div class="youtube_con">
+            <p class="news-title">
+              The princess is hospitalized for 2 weeks, what happened?
+            </p>
+            <iframe
+              width="360"
+              height="200"
+              src="https://www.youtube.com/embed/JoOzpreWpVI"
+              title="Why Kate Middleton Is Hospitalized for 2 Weeks"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p class="news-date">Jan. 18 -- 2024</p>
+          </div>
+          <div class="youtube_con">
+            <p class="news-title">
+              Kate Middleton, King Charles surgeries spur royal health concerns
+            </p>
+            <iframe
+              width="360"
+              height="200"
+              src="https://www.youtube.com/embed/Ccu9kAdh4uU"
+              title="Kate Middleton, King Charles surgeries spur royal health concerns"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <p class="news-date">Jan. 18 -- 2024</p>
+          </div>
+        </div>
+        <div class="row-con">
+          <a
+            href="https://www.cbc.ca/news/business/uniqlo-shein-lawsuit-1.7087686"
+            target="_blank"
+            ><div class="single-news-con">
+              <div class="news-title">
+                Uniqlo sues Shein over alleged copy of its popular 'Mary
+                Poppings bag'
+              </div>
+              <div class="news-description">
+                Uniqlo Co. has sued rival retailer Shein over a small shoulder
+                bag that the Japanese retailer calls an inferior and unlawful
+                copy of its hit product touted as the 'Mary Poppings bag'
+              </div>
+              <div class="news-date">Jan. 18 -- 2024</div>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/canada/british-columbia/fire-downtown-vancouver-hostel-1.6969285"
+            target="_blank"
+            ><div class="single-news-con">
+              <div class="news-title">
+                Over 100 displaced after fire in Downtown Vancouve hostel
+              </div>
+              <div class="news-description">
+                A hostel in Vancouver's Granville Entertainment Districe was
+                significantly damaged by a fire overnight on Saturday, according
+                to officials
+              </div>
+              <div class="news-date">Sept. 16 -- 2023</div>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/entertainment/oppenheimer-leads-2024-bafta-nominations-1.7087443"
+            target="_blank"
+            ><div class="single-news-con">
+              <div class="news-title">
+                Oppenheimer leads 2024 BAFTA nominations with 13 nods
+              </div>
+              <div class="news-description">
+                Christopher Nolan's atom-bomb epic Oppenheimer leads the race
+                for the British Academy Film Awards, with nominations in 13
+                categories including best film
+              </div>
+              <div class="news-date">Jan. 18 -- 2024</div>
+            </div></a
+          >
+
+          <a
+            href="https://www.cbc.ca/news/entertainment/author/teghan-beaudette-1.1859355"
+            target="_blank"
+            ><div class="single-news-con">
+              <div class="news-title">
+                Teghan Beaudette - Entertainment news producer
+              </div>
+              <div class="news-description">
+                Teghan Beaudette covers national entertainment for CBC News.
+                She's based in Toronto but has worked all over Canada with CBC
+                in local and national news, including as a reporter and anchor
+                for CBC Manitoba, a news producer in Ontario and a television
+                producer with CBC Arts. You can reach her at
+                teghan.beaudette@cbc.ca
+              </div>
+              <div class="news-date">Jan. 11 -- 2024</div>
+            </div></a
+          >
+        </div>
       </div>
       <div id="warfare" class="cat-con">
         <a id="war-cat"></a>
@@ -244,6 +432,29 @@
       <div id="sport" class="cat-con">
         <a id="sport-cat"></a>
         <h1>Sport</h1>
+        <div id="module_1">
+          <div class="youtube_con">
+            <iframe
+              width="360"
+              height="200"
+              src="https://www.youtube.com/embed/bdpaKanjzFc"
+              title="NHL Highlights | Maple Leafs vs. Flames - January 18, 2024"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="360"
+              height="200"
+              src="https://www.youtube.com/embed/t1dRiZJsXDY"
+              title="Football Finance Expert Claims Manchester City Will Be RELEGATED If Guilty Of Their FFP Charges 😲⬇️"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="latest_news_con"></div>
+        </div>
       </div>
       <div id="buisness" class="cat-con">
         <a id="buisness-cat"></a>
@@ -266,18 +477,9 @@
           <p class="footer-href" onclick="nytredirect()">The New York Times</p>
           <p class="footer-href" onclick="bloomredirect()">Bloomberg</p>
         </div>
-        <div id="about_us_page_link_con">
-          <p class="footer-tit">About Us</p>
-          <button
-            class="about-us-href-button provincal-href-button"
-            onclick="redirect6()"
-          >
-            About Us
-          </button>
-        </div>
+        <div id="about_us_page_link_con"></div>
       </footer>
     </main>
-    <script src="index_news_redirect.json"></script>
     <script src="common.json"></script>
   </body>
 </html>

@@ -37,6 +37,10 @@
   opacity: 0.7;
 }
 
+.hittest-news-title {
+  color: black;
+}
+
 #side-news-con {
   margin-left: 5px;
   margin-right: 5px;
@@ -95,6 +99,7 @@
   border-style: dotted;
   margin: 8px;
   padding-bottom: 10px;
+  border-radius: 3px;
 }
 
 .popular-news {
@@ -110,6 +115,7 @@
   border-style: double;
   width: 326px;
   font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
 }
 
 .popular-title {
@@ -220,7 +226,7 @@
 }
 
 .local-title {
-  margin-left: 10px;
+  margin-left: 30px;
   font-weight: bold;
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
@@ -228,18 +234,21 @@
   color: dodgerblue;
   padding-left: 8px;
   width: 100px;
+  border-radius: 5px;
 }
 
 #local {
   border-style: dotted;
   margin: 8px;
   width: 870px;
+  border-radius: 3px;
 }
 
 #categories {
   border-style: dotted;
   margin: 8px;
   width: 350px;
+  border-radius: 3px;
 }
 
 .categories-title {
@@ -260,9 +269,34 @@
 .cat-con {
   margin: 8px;
   padding: 2px;
+  border-style: dotted;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.video_con {
+  display: flex;
+  border-style: double;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.youtube_con {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+iframe {
+  display: block;
+}
+
+.news-description {
+  color: black;
 }
